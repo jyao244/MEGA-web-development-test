@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>File Upload Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header>File Upload</header>
+    <form action="#">
+      <input class="file-input" action="#" type="file" name="file" hidden>
+      <p>Browse</p>
+    </form>
+    <input class="button" type="button" onclick="uploadFile()" value="Upload" />
+    <p>Password</p>
+    <div id="password"><input type="password" name="password" id="password" /></div>
+    <div id="fileName"></div>
+    <div id="fileDate"></div>
+    <div id="progress"></div>
+    <section class="progress-area"></section>
+    <section class="uploaded-area"></section>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
